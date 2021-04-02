@@ -3,16 +3,16 @@
         {
             "name": "project1",
             "includePath": [
-                "c:\\Users\\shund\\Desktop\\project1\\Core\\Inc",
-                "c:\\Users\\shund\\Desktop\\project1\\Drivers\\STM32F1xx_HAL_Driver\\Inc",
-                "c:\\Users\\shund\\Desktop\\project1\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy",
-                "c:\\Users\\shund\\Desktop\\project1\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include",
-                "c:\\Users\\shund\\Desktop\\project1\\Drivers\\CMSIS\\Include",
+                "c:\\Users\\Mark\\Desktop\\iot-onenet-mqtt\\Core\\Inc",
+                "c:\\Users\\Mark\\Desktop\\iot-onenet-mqtt\\Drivers\\STM32F1xx_HAL_Driver\\Inc",
+                "c:\\Users\\Mark\\Desktop\\iot-onenet-mqtt\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy",
+                "c:\\Users\\Mark\\Desktop\\iot-onenet-mqtt\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include",
+                "c:\\Users\\Mark\\Desktop\\iot-onenet-mqtt\\Drivers\\CMSIS\\Include",
                 "C:\\Keil_v5\\ARM\\ARMCC\\include",
                 "C:\\Keil_v5\\ARM\\ARMCC\\include\\rw",
-                "c:\\Users\\shund\\Desktop\\project1\\MDK-ARM",
-                "c:\\Users\\shund\\Desktop\\project1\\Core\\Src",
-                "c:\\Users\\shund\\Desktop\\project1\\Drivers\\STM32F1xx_HAL_Driver\\Src"
+                "c:\\Users\\Mark\\Desktop\\iot-onenet-mqtt\\MDK-ARM",
+                "c:\\Users\\Mark\\Desktop\\iot-onenet-mqtt\\Core\\Src",
+                "c:\\Users\\Mark\\Desktop\\iot-onenet-mqtt\\Drivers\\STM32F1xx_HAL_Driver\\Src"
             ],
             "defines": [
                 "USE_HAL_DRIVER",

@@ -49,7 +49,7 @@ uint8_t connect[47] = {0x10, 0x22, 0x00, 0x04, 0x4D, 0x51, 0x54, 0x54, 0x04, 0xC
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
-static void MX_GPIO_Init(void);
+static void MX_GPIO_Init(void); 
 static void MX_USART1_UART_Init(void);
 static void MX_USART3_UART_Init(void);
 /* USER CODE BEGIN PFP */
@@ -95,7 +95,7 @@ void init8266(){
 	HAL_UART_Transmit(&huart1, recev, 100, 200);
 	memset(recev, 0, 100);
 	HAL_UART_Transmit(&huart1, transmit4, 12, 100);
-	HAL_Delay(5000);
+	HAL_Delay(5000);  
 	HAL_UART_Transmit(&huart3, connect, 36, 100);
 	HAL_UART_Receive(&huart3, recev, 100, 3000);
 	HAL_UART_Transmit(&huart1, recev, 100, 200);
